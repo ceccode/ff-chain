@@ -21,7 +21,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^21.7.0",
     "jest": "^22.1.4",
-    "nodemon": "^1.17.3",
+    "nodemon": "^1.18.3",
     "supertest": "^3.0.0"
   },
   "dependencies": {
