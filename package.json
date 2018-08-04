@@ -1,0 +1,36 @@
+{
+  "name": "ff-chain",
+  "version": "0.0.1",
+  "description": "blockchain project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "jest --watchAll src",
+    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src",
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "author": "Francesco Falanga <falanga.fra@gmail.com>",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.7.0",
+    "jest": "^22.1.4",
+    "nodemon": "^1.17.3",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "celebrate": "^7.0.6",
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.0",
+    "express": "^4.16.3",
+    "uuid": "^3.2.1",
+    "ws": "^5.1.1"
+  }
+}
